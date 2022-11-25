@@ -1,0 +1,101 @@
+{
+  "menu": [
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "icon": "home",
+      "slug": "dashboard"
+    },
+    {
+      "url": "deposit",
+      "name": "Deposit",
+      "icon": "dollar-sign",
+      "slug": "deposit",
+      "submenu": [
+        {
+          "url": "deposit/add",
+          "name": "Add Deposit",
+          "icon": "plus",
+          "slug": "deposit-add"
+        },
+        {
+          "url": "deposit/history",
+          "name": "Deposit History",
+          "icon": "book-open",
+          "slug": "deposit-history"
+        }
+      ]
+    },
+    {
+      "url": "Service",
+      "name": "Service",
+      "icon": "send",
+      "slug": "service",
+      "submenu": [
+        {
+          "url": "service/grab",
+          "name": "Grab Service",
+          "icon": "download-cloud",
+          "slug": "service-grab",
+          "is_admin": "is_admin"
+        },
+        {
+          "url": "service/list",
+          "name": "Service List",
+          "icon": "layers",
+          "slug": "service-list"
+        },
+        {
+          "url": "service/provider",
+          "name": "Provider List",
+          "icon": "cloud",
+          "slug": "service-provider",
+          "is_admin": "is_admin"
+        }
+      ]
+    },
+    {
+      "url": "order",
+      "name": "Order",
+      "icon": "shopping-cart",
+      "slug": "order",
+      "submenu": [
+        {
+          "url": "order/new",
+          "name": "New Order",
+          "icon": "plus",
+          "slug": "order-new"
+        },
+        {
+          "url": "order/history",
+          "name": "Order History",
+          "icon": "book-open",
+          "slug": "order-history"
+        }
+      ]
+    },
+    {
+      "url": "user",
+      "name": "User",
+      "icon": "user",
+      "slug": "user",
+      "is_admin": "is_admin",
+      "submenu": [
+        {
+          "url": "user/new",
+          "name": "New User",
+          "icon": "user-plus",
+          "slug": "user-new",
+          "is_admin": "is_admin"
+        },
+        {
+          "url": "user/list",
+          "name": "User List",
+          "icon": "users",
+          "slug": "user-list",
+          "is_admin": "is_admin"
+        }
+      ]
+    }
+  ]
+}
